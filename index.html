@@ -5,8 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Convention</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <p>this is public repo</p>
+    <!-- HEADER START -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light my-3">
+            <div class="container">
+              <a class="navbar-brand fw-bold" href="#">Abacus Convention Center</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#about">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#subscribe">Subscribe</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <!-- CAROUSEL SECTION -->
+          <div class="carousel">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/banner.png" class="d-block w-100 img-fluid" alt="...">
+                    <div class="carousel-caption d-flex justify-content-center">
+                      <div class="w-75">
+                        <h1 class="display-5 fw-bold">The perfect venue for your next event</h1>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
+                        <button class="btn btn-light text-primary fw-bold mb-4"><a class="text-primary text-decoration-none" href="https://www.liamcollard.com/?gclid=Cj0KCQiAubmPBhCyARIsAJWNpiMymzzoN1mY3OpKm0Zq-bfdoI2YK36J8jBGmaL3cupi_b8MnfzjVVoaAq00EALw_wcB">Book Now</a></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item w-100 h-100 position-relative">
+                    <div class="w-100 h-100 over position-relative">
+                        <img src="images/wedding (4).jpg" class="w-100 img-fluid over" alt="...">
+                    </div>
+                    <div class="carousel-caption d-flex justify-content-center">
+                        <div class="w-75">
+                            <h1 class="text-white display-5 fw-bold">nice  juti for your next event</h1>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
+                            <button class="btn btn-light text-primary fw-bold mb-4"><a class="text-primary text-decoration-none" href="https://www.liamcollard.com/?gclid=Cj0KCQiAubmPBhCyARIsAJWNpiMymzzoN1mY3OpKm0Zq-bfdoI2YK36J8jBGmaL3cupi_b8MnfzjVVoaAq00EALw_wcB">Book Now</a></button>
+                        </div>
+                    </div>
+                    <div class="overly py-5"></div>
+                  </div>
+                  <div class="carousel-item position-relative">
+                    <img src="images/wedding (2).jpg" class="d-bolck w-100 img-fluid" alt="...">
+                    <div class="carousel-caption d-flex justify-content-center">
+                        <div class="w-75">
+                          <h1 class="display-5 fw-bold">Ths is a wedding next year event</h1>
+                          <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
+                          <button class="btn btn-light text-primary fw-bold mb-4"><a class="text-primary text-decoration-none" href="https://www.liamcollard.com/?gclid=Cj0KCQiAubmPBhCyARIsAJWNpiMymzzoN1mY3OpKm0Zq-bfdoI2YK36J8jBGmaL3cupi_b8MnfzjVVoaAq00EALw_wcB">Book Now</a></button>
+                        </div>
+                    </div>
+                    <div class="overly py-5"></div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+    </header>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
